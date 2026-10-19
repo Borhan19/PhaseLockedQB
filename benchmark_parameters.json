@@ -1,0 +1,190 @@
+{
+  "purpose": "Reference snapshot of code-defined parameters; not loaded as an input file by the scripts",
+  "reference_rate_kappa_0": 0.01,
+  "linear_gaussian": {
+    "paper_parameters": {
+      "kappa_a_down": 0.01,
+      "kappa_b": 0.01,
+      "drive": {
+        "real": 0.1,
+        "imag": 0.0
+      },
+      "omega_b": 1.0,
+      "matched_offdiagonal_strength": 0.032,
+      "Gamma_col": 0.17164959813860875,
+      "theta": 1.15,
+      "phi": 0.0,
+      "target_growth_margin": 0.0005
+    },
+    "matched_coherent": {
+      "kappa_a_down": 0.01,
+      "kappa_a_up": 0.021999999999999992,
+      "kappa_b": 0.01,
+      "delta": 0.0,
+      "drive": {
+        "real": 0.1,
+        "imag": 0.0
+      },
+      "coherent_J": 0.032,
+      "Gamma_col": 0.0,
+      "theta": 0.7853981633974483,
+      "phi": 0.0,
+      "omega_a": 1.0,
+      "omega_b": 1.0
+    },
+    "matched_dissipative": {
+      "kappa_a_down": 0.01,
+      "kappa_a_up": 0.013045738708976833,
+      "kappa_b": 0.01,
+      "delta": 0.0,
+      "drive": {
+        "real": 0.1,
+        "imag": 0.0
+      },
+      "coherent_J": 0.0,
+      "Gamma_col": 0.17164959813860875,
+      "theta": 1.15,
+      "phi": 0.0,
+      "omega_a": 1.0,
+      "omega_b": 1.0
+    }
+  },
+  "nonlinear_code_profiles": {
+    "phase_locked_2.py": {
+      "low_energy": {
+        "bosonic": {
+          "kappa_a_down": 0.05,
+          "kappa_b": 0.05,
+          "delta": 0.0,
+          "drive": {
+            "real": 0.02,
+            "imag": 0.0
+          },
+          "Gamma_col": 2.0,
+          "theta": 1.1071487177940904,
+          "phi": 0.0,
+          "omega_b": 1.0,
+          "target_growth_margin": 0.002
+        },
+        "tls": {
+          "P_sigma": 0.16,
+          "gamma_sigma": 0.03,
+          "gamma_sigma_phi": 0.0,
+          "Delta_sigma": 0.0
+        }
+      },
+      "balanced": {
+        "bosonic": {
+          "kappa_a_down": 0.01,
+          "kappa_b": 0.01,
+          "delta": 0.0,
+          "drive": {
+            "real": 0.1,
+            "imag": 0.0
+          },
+          "Gamma_col": 2.0,
+          "theta": 1.1071487177940904,
+          "phi": 0.0,
+          "omega_b": 1.0,
+          "target_growth_margin": 0.0005
+        },
+        "tls": {
+          "P_sigma": 0.18,
+          "gamma_sigma": 0.02,
+          "gamma_sigma_phi": 0.0,
+          "Delta_sigma": 0.0
+        }
+      },
+      "paper": {
+        "bosonic": {
+          "kappa_a_down": 0.01,
+          "kappa_b": 0.01,
+          "delta": 0.0,
+          "drive": {
+            "real": 0.1,
+            "imag": 0.0
+          },
+          "Gamma_col": 6.40064,
+          "theta": 1.5607966601082315,
+          "phi": 0.0,
+          "omega_b": 1.0,
+          "target_growth_margin": 0.0005
+        },
+        "tls": {
+          "P_sigma": 0.18,
+          "gamma_sigma": 0.02,
+          "gamma_sigma_phi": 0.0,
+          "Delta_sigma": 0.0
+        }
+      }
+    },
+    "phase_locked_3.py": {
+      "low_energy": {
+        "bosonic": {
+          "kappa_a_down": 0.05,
+          "kappa_b": 0.05,
+          "delta": 0.0,
+          "drive": {
+            "real": 0.02,
+            "imag": 0.0
+          },
+          "Gamma_col": 2.0,
+          "theta": 1.1071487177940904,
+          "phi": 0.0,
+          "omega_b": 1.0,
+          "target_growth_margin": 0.002
+        },
+        "tls": {
+          "P_sigma": 0.16,
+          "gamma_sigma": 0.03,
+          "gamma_sigma_phi": 0.0,
+          "Delta_sigma": 0.0
+        }
+      },
+      "balanced": {
+        "bosonic": {
+          "kappa_a_down": 0.01,
+          "kappa_b": 0.01,
+          "delta": 0.0,
+          "drive": {
+            "real": 0.1,
+            "imag": 0.0
+          },
+          "Gamma_col": 2.0,
+          "theta": 1.1071487177940904,
+          "phi": 0.0,
+          "omega_b": 1.0,
+          "target_growth_margin": 0.0005
+        },
+        "tls": {
+          "P_sigma": 0.18,
+          "gamma_sigma": 0.02,
+          "gamma_sigma_phi": 0.0,
+          "Delta_sigma": 0.0
+        }
+      },
+      "paper": {
+        "bosonic": {
+          "kappa_a_down": 0.01,
+          "kappa_b": 0.01,
+          "delta": 0.0,
+          "drive": {
+            "real": 0.1,
+            "imag": 0.0
+          },
+          "Gamma_col": 0.17164959813860875,
+          "theta": 1.15,
+          "phi": 0.0,
+          "omega_b": 1.0,
+          "target_growth_margin": 0.0005
+        },
+        "tls": {
+          "P_sigma": 0.18,
+          "gamma_sigma": 0.02,
+          "gamma_sigma_phi": 0.0,
+          "Delta_sigma": 0.0
+        }
+      }
+    }
+  }
+}
