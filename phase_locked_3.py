@@ -1457,13 +1457,13 @@ def plot_revised_end_matter_figure(
 
     axes[0, 0].semilogy(
         tau_linear,
-        np.maximum(linear["n_b"], floor),
+        np.maximum(linear["n_b_coherent"], floor),
         linestyle="--",
         label="Linear",
     )
     axes[0, 0].semilogy(
         tau_exact,
-        np.maximum(exact["n_b"], floor),
+        np.maximum(exact["n_b_coherent"], floor),
         label="1 emitter",
     )
     axes[0, 0].set_ylabel(r"$|\langle b\rangle|^2$")
